@@ -74,10 +74,24 @@ footer {
 
 /* info */
 
-/* #info {
+#info {
     text-align: center;
 }
 
 #info h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
 
-} */
+#info p {
+    font-size: 18px;
+    color: #1F2937;
+}
+
+.sub-info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 150px 50px;
+}
